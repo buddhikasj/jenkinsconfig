@@ -1,0 +1,8 @@
+Started by user unknown or anonymous
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/test maven
+[test maven] $ /bin/sh -xe /tmp/jenkins5841301834063649162.sh
++ mvn --version
+/tmp/jenkins5841301834063649162.sh: 2: /tmp/jenkins5841301834063649162.sh: mvn: not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

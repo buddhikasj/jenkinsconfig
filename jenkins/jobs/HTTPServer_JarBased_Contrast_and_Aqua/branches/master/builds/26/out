@@ -1,0 +1,8 @@
+2019-12-05 14:58:47.503	[34mINFO[0m	Registering with server	{"os": "linux", "os_version": "", "registries": []}
+2019-12-05 14:58:47.571	[34mINFO[0m	Successfully registered	{"scanner_id": 19}
+2019-12-05 14:58:47.764	[34mINFO[0m	Will scan image without using Docker
+2019-12-05 14:58:47.765	[34mINFO[0m	Connecting to registry...	{"registry": "Docker Hub", "image": "docker.io/buddhikasj88/contrast-httpserver:26", "requested platform": "amd64:::", "job ID": "e6ad1023-7771-4735-8d0e-14c36aeeb06d", "server version": "4.5.5be1eb88"}
+2019-12-05 14:58:49.658	[34mINFO[0m	Requesting authorization to pull image...	{"registry": "Docker Hub", "image": "docker.io/buddhikasj88/contrast-httpserver:26", "requested platform": "amd64:::", "job ID": "e6ad1023-7771-4735-8d0e-14c36aeeb06d", "server version": "4.5.5be1eb88"}
+2019-12-05 14:58:50.411	[34mINFO[0m	Processing results...	{"registry": "Docker Hub", "image": "docker.io/buddhikasj88/contrast-httpserver:26", "requested platform": "amd64:::", "job ID": "e6ad1023-7771-4735-8d0e-14c36aeeb06d", "server version": "4.5.5be1eb88"}
+2019-12-05 14:58:50.411	[34mINFO[0m	Deregistering from console
+2019-12-05 14:58:50.493	[31mERROR[0m	ERROR: Failed scanning image: failed processing scan job: repository was not found in registry

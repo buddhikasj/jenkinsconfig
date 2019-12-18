@@ -1,0 +1,85 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-11-14 01:11:17.339 UTC</timestamp>
+  <original>
+    <name>Java_Mevan_Test/master</name>
+    <number>1</number>
+  </original>
+  <md5sum>5435658a63acb615bd9ab5d9249be37d</md5sum>
+  <fileName>Docker image sha256:5435658a63acb615bd9ab5d9249be37de8a1b4e996a6996e26a5127e2a14e79c</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.15">
+      <timestamp>1573693877354</timestamp>
+      <imageId>sha256:5435658a63acb615bd9ab5d9249be37de8a1b4e996a6996e26a5127e2a14e79c</imageId>
+      <usages>
+        <entry>
+          <string>Java_Mevan_Test/master</string>
+          <ranges>1,3-5,7-8</ranges>
+        </entry>
+        <entry>
+          <string>WebAPP_MAVEN_Java/master</string>
+          <ranges>1-2</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>f311feab7ea5</host>
+          <containerId>f311feab7ea570b42479870112c8e9047cf967008bcd84053d6d19e6a8ddfa5d</containerId>
+          <containerName>/charming_grothendieck</containerName>
+          <created>1573693874000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>7434d296509b</host>
+          <containerId>7434d296509b6063497818e1a7fa507d07c7aa35a85444c0a20401f235225bf2</containerId>
+          <containerName>/vigilant_bell</containerName>
+          <created>1573694065000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>e962faac94f7</host>
+          <containerId>e962faac94f7a4a6b1a9fb26c11373d0d45c8b35fb19f4c9beaefbdf89c5dee6</containerId>
+          <containerName>/magical_jones</containerName>
+          <created>1573694349000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>3f8602e628ce</host>
+          <containerId>3f8602e628ce368aa06675ff0ebedb825145bc0172263d98fadc53f528f543a0</containerId>
+          <containerName>/elegant_yalow</containerName>
+          <created>1573694528000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>27e776b3ddc5</host>
+          <containerId>27e776b3ddc5ae8e0507e73e3fea9eac2f823a585660b7ace831aee66113ca94</containerId>
+          <containerName>/fervent_kowalevski</containerName>
+          <created>1573695492000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>31bb58c1cbd0</host>
+          <containerId>31bb58c1cbd020f839b5ef2789162edbec88d42e068411672fa006e4c1863a31</containerId>
+          <containerName>/ecstatic_keller</containerName>
+          <created>1573695701000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>44846d76e961</host>
+          <containerId>44846d76e96129be757cd05973ca6b7c4c5cbdea3a7ff10fab072c56ec9751ba</containerId>
+          <containerName>/lucid_varahamihira</containerName>
+          <created>1573708483000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>4db2b618d879</host>
+          <containerId>4db2b618d879fd65c2f1dc7708ed10e090ffda057fa0f88a06baba5717d5add1</containerId>
+          <containerName>/kind_feistel</containerName>
+          <created>1573708637000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>

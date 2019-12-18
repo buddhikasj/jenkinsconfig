@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.35">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.RestartFlowFactoryAction plugin="pipeline-model-definition@1.3.9">
+      <originRunId>test/master#48</originRunId>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.RestartFlowFactoryAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause/>
+          <int>1</int>
+        </entry>
+        <entry>
+          <org.jenkinsci.plugins.pipeline.modeldefinition.causes.RestartDeclarativePipelineCause plugin="pipeline-model-definition@1.3.9">
+            <originRunNumber>48</originRunNumber>
+            <originStage>Checkout</originStage>
+          </org.jenkinsci.plugins.pipeline.modeldefinition.causes.RestartDeclarativePipelineCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+  </actions>
+  <queueId>6</queueId>
+  <timestamp>1573650167616</timestamp>
+  <startTime>1573650167623</startTime>
+  <result>FAILURE</result>
+  <duration>22439</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

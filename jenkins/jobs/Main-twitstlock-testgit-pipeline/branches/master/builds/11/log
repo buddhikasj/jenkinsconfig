@@ -1,0 +1,171 @@
+Started by user unknown or anonymous
+ > git rev-parse --is-inside-work-tree # timeout=10
+Setting origin to https://github.com/buddhikasj/test.git
+ > git config remote.origin.url https://github.com/buddhikasj/test.git # timeout=10
+Fetching origin...
+Fetching upstream changes from origin
+ > git --version # timeout=10
+ > git config --get remote.origin.url # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- origin +refs/heads/*:refs/remotes/origin/*
+Seen branch in repository origin/master
+Seen 1 remote branch
+Obtained Jenkinsfile from 2b98d8fbfcf7e24b644159f6eea38ce5a32a7e75
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4ABKIjisEcpdfvLax5U97sDUROoy65xmMBj3eIkmGyXrAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4AE0eRHGvyqJjMtaPwMqpcqQtddBxSz/M+D84G3bbyfoAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4EN+mI97XeZMQAjFdAHItRI6P3k2q8V5Bzdap+mdVoaOAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/test_master
+[8mha:////4FVT3b1QpvZM161TO5pl7O+VArnAtVuc+acjfNy8LoyMAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4E8S0kUCevjIu/tb29V0u7DeyWOfg4yqxHCSD8U8HokvAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaGWsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gdpL1fxvAAAAA==[0m[Pipeline] checkout
+using credential github
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/buddhikasj/test.git # timeout=10
+Cleaning workspace
+ > git rev-parse --verify HEAD # timeout=10
+Resetting working tree
+ > git reset --hard # timeout=10
+ > git clean -fdx # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/buddhikasj/test.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --no-tags --force --progress -- https://github.com/buddhikasj/test.git +refs/heads/*:refs/remotes/origin/*
+Checking out Revision 2b98d8fbfcf7e24b644159f6eea38ce5a32a7e75 (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2b98d8fbfcf7e24b644159f6eea38ce5a32a7e75
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master 2b98d8fbfcf7e24b644159f6eea38ce5a32a7e75
+Commit message: "Add files via upload"
+ > git rev-list --no-walk 2b98d8fbfcf7e24b644159f6eea38ce5a32a7e75 # timeout=10
+Cleaning workspace
+ > git rev-parse --verify HEAD # timeout=10
+Resetting working tree
+ > git reset --hard # timeout=10
+ > git clean -fdx # timeout=10
+[8mha:////4OMRsC4KP6l/l58P3htx2s9d+DRknWsmd+f2gEHSd4V3AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0QSyIiTXKwglCEkLa6P82SWknTsTVuAOBSkxYsmRbst7zBXWKcKToeGux85i0530YXUl8othdA028pQvXhImC5dJOkow9LVVStrCIVbASsLaoAyWPLsNGtOqumqDQNeccy3YQUHkzwAOYKOSsYv6WOcL2NppE+OP8BcDcZ2C74v3nV78BmoXK/sAAAAA=[0m[Pipeline] withEnv
+[8mha:////4F4HBpdzzTfX7N7me6tRUJpZwxe1Txk05Qzm1xMIs6RzAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] {
+[8mha:////4HdneRM+NC0OzOMZ0vc2OPStNPlZQxTp+61co37b8winAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] withDockerRegistry
+$ docker login -u buddhikasj88 -p ******** https://index.docker.io/v1/
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /var/jenkins_home/workspace/test_master@tmp/45aaa1ca-8411-469b-b0da-ca27585b2b98/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+[8mha:////4LrZuBt3IX8gOfQI5KXC2ZhTYNPDI2iXKziwGCpLDtsfAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BSEm1igLJwhJCGmj/9skpZ04EVfjDgQqMWHJkm3Jes8X1CnCkaLjrcXOY9Ke92F0JfGJYncNNPGWLlwTJgqWSztJMva0VEnZwiJWwUrA2qIOlDy6DBvRqrtqgkLXnHMs20FA5c0AD2CikLOK+VvmCNvbaBLhj/MXAHOfge2K959f/QbB16AVwAAAAA==[0m[Pipeline] {
+[8mha:////4B2bLATj6Ut3KQinhm/fPsFkDQ4AKRJhkQpu5V1KeIqtAAAAoh+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBEiEqWisNLzCJMU6su2BfSCpexNf4AxGRqNhqZ5p5vbFMEUeOTjWWWk+p8qoLvZueGji218CDaviiKqbEwarSDiXX9jRjyWIxL8ux0FhZqgInT06w1o15mCIYcsVZ4uQOGrmv73gi01NZTJQvjBGbW18npl/nbwBjJ8j2gny37T6VOYoyvQAAAA==[0m[Pipeline] isUnix
+[8mha:////4GRS1vwLzeiWWfVB2c8HD9SkWOL2thAKs0i4eKyyTRybAAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KE0Rgn14bFL6hQa6F5D9uHMPlF/pr/IJHEyTvdc5bzemOdIo4cnWotdZ5S7VUfBjc/NXLsroFH1fJF1UyJg1WVHStu7GnBisViWZZjpbGxVAdOnpxgq1vzMEUw5IqzxNkdNHLf3PFEpueymChfmCJ2t6FJTL/O3wCmXpDtBXlZ9h/UCJErvQAAAA==[0m[Pipeline] sh
++ docker build -t buddhikasj88/contrast .
+Sending build context to Docker daemon  94.72kB
+Step 1/7 : FROM node:8
+Trying to pull repository docker.io/library/node ... 
+8: Pulling from docker.io/library/node
+9a0b0ce99936: Already exists
+db3b6004c61a: Already exists
+f8f075920295: Already exists
+6ef14aff1139: Already exists
+0bbd8b48260f: Pulling fs layer
+524be717efb1: Pulling fs layer
+a01845e4c44f: Pulling fs layer
+fb07811a8655: Pulling fs layer
+77b992cda412: Pulling fs layer
+fb07811a8655: Waiting
+77b992cda412: Waiting
+524be717efb1: Download complete
+a01845e4c44f: Verifying Checksum
+a01845e4c44f: Download complete
+fb07811a8655: Verifying Checksum
+fb07811a8655: Download complete
+0bbd8b48260f: Verifying Checksum
+0bbd8b48260f: Download complete
+77b992cda412: Verifying Checksum
+77b992cda412: Download complete
+0bbd8b48260f: Pull complete
+524be717efb1: Pull complete
+a01845e4c44f: Pull complete
+fb07811a8655: Pull complete
+77b992cda412: Pull complete
+Digest: sha256:beaec0dc2f371e6449bc2154a253563e8e4b6910bebd74c28f44ba22c4e9ea31
+Status: Downloaded newer image for docker.io/node:8
+ ---> 52a261fa5e4b
+Step 2/7 : WORKDIR /usr/src/app
+ ---> d131a58f5432
+Removing intermediate container f17ea82af555
+Step 3/7 : COPY package*.json ./
+ ---> 2b4fc2a58ffb
+Removing intermediate container dfc15ad142dc
+Step 4/7 : RUN npm install
+ ---> Running in ca282a34f1bb
+
+[91m[0m[91mnpm WARN docker_web_app@1.0.0 No repository field.
+[0m[91mnpm[0m[91m [0m[91mWARN docker_web_app@1.0.0 No license field.
+[0m[91m
+[0madded 50 packages from 37 contributors and audited 126 packages in 111.245s
+found 0 vulnerabilities
+
+ ---> 56c0bb081ce9
+Removing intermediate container ca282a34f1bb
+Step 5/7 : COPY . .
+ ---> 090108ae895f
+Removing intermediate container b3109176b235
+Step 6/7 : EXPOSE 8080
+ ---> Running in ba013485ce2c
+ ---> e8289a1e9121
+Removing intermediate container ba013485ce2c
+Step 7/7 : CMD npm start
+ ---> Running in 7b896df8835b
+ ---> e166ebeeb2ae
+Removing intermediate container 7b896df8835b
+Successfully built e166ebeeb2ae
+[8mha:////4C59ES5Wgn6ZfX8S751N87kL/sfjDwuOrY0xo5gzojMQAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRdAhR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+TbXfcBF1u8AL0AAAA=[0m[Pipeline] isUnix
+[8mha:////4AfR2GNs26wUaLjsod4Lev5+lPeILcbnHFB7ityIi4dHAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRokKIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDf7roPVmqnGb0AAAA=[0m[Pipeline] sh
++ docker tag buddhikasj88/contrast index.docker.io/buddhikasj88/contrast:latest
+[8mha:////4BqTb3w09Uqjz7HNbFhjxOgGDmLdphCZ4YCX+QdgZ/I4AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREg1CVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5dtd9AJH85la9AAAA[0m[Pipeline] isUnix
+[8mha:////4KgXgO6GLOp1bu2hmF6j7H4VHH1qBwMY1SuTu42euUkGAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRBQVCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5dtd9ANDN/U+9AAAA[0m[Pipeline] sh
++ docker push index.docker.io/buddhikasj88/contrast:latest
+The push refers to a repository [docker.io/buddhikasj88/contrast]
+bf5261526258: Preparing
+f55552e2838f: Preparing
+994749e64323: Preparing
+9e35c2bf230d: Preparing
+4c5e2c02e279: Preparing
+aa8fc267d1f6: Preparing
+2f6a6589e295: Preparing
+799e7111d6d4: Preparing
+a72a7e555fe1: Preparing
+b8f8aeff56a8: Preparing
+687890749166: Preparing
+2f77733e9824: Preparing
+97041f29baff: Preparing
+aa8fc267d1f6: Waiting
+2f6a6589e295: Waiting
+799e7111d6d4: Waiting
+a72a7e555fe1: Waiting
+b8f8aeff56a8: Waiting
+687890749166: Waiting
+2f77733e9824: Waiting
+97041f29baff: Waiting
+4c5e2c02e279: Mounted from library/node
+bf5261526258: Pushed
+f55552e2838f: Pushed
+994749e64323: Pushed
+9e35c2bf230d: Pushed
+aa8fc267d1f6: Mounted from library/node
+2f6a6589e295: Mounted from library/node
+799e7111d6d4: Mounted from library/node
+a72a7e555fe1: Mounted from library/node
+b8f8aeff56a8: Mounted from jenkins/jenkins
+687890749166: Mounted from jenkins/jenkins
+2f77733e9824: Mounted from jenkins/jenkins
+97041f29baff: Mounted from jenkins/jenkins
+latest: digest: sha256:5ca30c0d41f6cb2eb838bef93990363481be90665d02bbf2a6610db45a1aca6e size: 3049
+[8mha:////4LWyswbm/MTlfdwDluLazAljJAjGof74ajPjpZWJOTEKAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRDRJCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AJiitCO9AAAA[0m[Pipeline] }
+[8mha:////4AXN0VABQF8N82KksyDt0BLBvI19/uVu+ffwaEbDBwrzAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRFUiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsPvrvTab0AAAA=[0m[Pipeline] // withDockerRegistry
+[8mha:////4FScw3au6CZIl3R2C8WcUnwdenBfeWTNYdxDA4hp/TIvAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRFUiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsP/jE8e70AAAA=[0m[Pipeline] }
+[8mha:////4OE5jLN0T879jWJvBTBZXsjG7ikaQ/ZL6es5sBiEasAnAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRDRJCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9ANgoWzG9AAAA[0m[Pipeline] // withEnv
+[8mha:////4Jp2YwV8//627DVIpuli3FUe0dKOLMJYnRy8mMQiFIysAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBiA5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77aCbP8BK1nRVL0AAAA=[0m[Pipeline] }
+[8mha:////4HDzMgD6tDUohQNBqeUhjIWGhWvVM3bH/tIRdp0SuG0wAAAAoh+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRUCIqWisNLzCJMU6su2BfSCpexNf4AxGRqNhqZ5p5vbFMEUeOTjWWWk+p8qoLvZueGji218CDaviiKqbEwarSDiXX9jRjyWIxL8ux0FhZqgInT06w1o15mCIYcsVZ4uQOGrmv73gi01NZTJQvjBGbW18npl/nbwBj1wny3VaQ7T845dX3vQAAAA==[0m[Pipeline] // node
+[8mha:////4F8ALjr06Jt6YHFemf7765CY7XRwqHr0sx45HIb8P23wAAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkrMbJtWHxCyrUWmjeg/YhTH6Rv+Y/SCRx8k73nOW83timiBNHp1pLnadUe9WH0S1PTRy7W+BJtXxVNVPiYFVlp4obe16xYrFYl+XYaOws1YGTJyfY69Y8TBEMueIicXFHjdw3A57I9FIWE+ULc8ThPjaJ6df5G8Dc94K8LAVZ+QF+r3LHvQAAAA==[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

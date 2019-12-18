@@ -1,0 +1,55 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@2.35">
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <hudson.plugins.jira.JiraProjectProperty plugin="jira@3.0.10"/>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.74">
+    <script>node {
+   stage(&apos;Preparation&apos;) {
+       // for display purposes
+       echo &quot;Preparing&quot;
+   }
+
+   stage(&apos;Build&apos;) {
+       // Build an image for scanning
+       sh &apos;echo &quot;FROM ubuntu:14.04&quot; &gt; Dockerfile&apos;
+       sh &apos;echo &quot;MAINTAINER Aqsa Fatima &lt;aqsa@twistlock.com&gt;&quot; &gt;&gt; Dockerfile&apos;
+       sh &apos;echo &quot;RUN mkdir -p /tmp/test/dir&quot; &gt;&gt; Dockerfile&apos;
+       sh &apos;docker build --no-cache -t dev/ubun2:test .&apos;
+   }
+
+  stage(&apos;Scan&apos;) {
+    twistlockScan ca: &apos;&apos;,
+      cert: &apos;&apos;,
+      compliancePolicy: &apos;critical&apos;,
+      dockerAddress: &apos;unix:///var/run/docker.sock&apos;,
+      gracePeriodDays: 0,
+      ignoreImageBuildTime: true,
+      image: &apos;dev/ubun2:test&apos;,
+      key: &apos;&apos;,
+      logLevel: &apos;true&apos;,
+      policy: &apos;warn&apos;,
+      requirePackageUpdate: false,
+      timeout: 10
+    }
+
+  stage(&apos;Publish&apos;) {
+     twistlockPublish ca: &apos;&apos;,
+        cert: &apos;&apos;,
+        dockerAddress: &apos;unix:///var/run/docker.sock&apos;,
+        ignoreImageBuildTime: true,
+        image: &apos;dev/ubun2:test&apos;,
+        key: &apos;&apos;,
+        logLevel: &apos;true&apos;,
+        timeout: 10
+
+        }
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

@@ -1,0 +1,152 @@
+Started by user unknown or anonymous
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/webgoat_freebuild_
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/kevinsawicki/github-maven-example.git # timeout=10
+Fetching upstream changes from https://github.com/kevinsawicki/github-maven-example.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/kevinsawicki/github-maven-example.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 27374b94fe4708c92e313d944cdc1bdd43841df6 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 27374b94fe4708c92e313d944cdc1bdd43841df6 # timeout=10
+Commit message: "Upgrade to latest download & site plugin versions"
+ > git rev-list --no-walk 27374b94fe4708c92e313d944cdc1bdd43841df6 # timeout=10
+[webgoat_freebuild_] $ /bin/sh -xe /tmp/jenkins4241521669257177743.sh
++ cd example
++ mvn clean install
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.github.kevinsawicki:github-maven-example:jar:0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 115, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ line 123, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ line 146, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ line 135, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building GitHub Maven Plugin Example 0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ github-maven-example ---
+[INFO] Deleting /var/jenkins_home/workspace/webgoat_freebuild_/example/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ github-maven-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/webgoat_freebuild_/example/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ github-maven-example ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /var/jenkins_home/workspace/webgoat_freebuild_/example/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ github-maven-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/webgoat_freebuild_/example/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ github-maven-example ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /var/jenkins_home/workspace/webgoat_freebuild_/example/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ github-maven-example ---
+[INFO] Surefire report directory: /var/jenkins_home/workspace/webgoat_freebuild_/example/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.github.maven.example.tests.WidgetTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 sec - in com.github.maven.example.tests.WidgetTest
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ github-maven-example ---
+[INFO] Building jar: /var/jenkins_home/workspace/webgoat_freebuild_/example/target/github-maven-example-0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-javadoc-plugin:3.1.1:jar (default) @ github-maven-example ---
+[INFO] 
+Loading source files for package com.github.maven.example...
+Constructing Javadoc information...
+Standard Doclet version 1.8.0_232
+Building tree for all the packages and classes...
+Generating /var/jenkins_home/workspace/webgoat_freebuild_/example/target/apidocs/com/github/maven/example/Widget.html...
+Generating /var/jenkins_home/workspace/webgoat_freebuild_/example/target/apidocs/com/github/maven/example/package-frame.html...
+Generating /var/jenkins_home/workspace/webgoat_freebuild_/example/target/apidocs/com/github/maven/example/package-summary.html...
+Generating /var/jenkins_home/workspace/webgoat_freebuild_/example/target/apidocs/com/github/maven/example/package-tree.html...
+Generating /var/jenkins_home/workspace/webgoat_freebuild_/example/target/apidocs/constant-values.html...
+Generating /var/jenkins_home/workspace/webgoat_freebuild_/example/target/apidocs/com/github/maven/example/class-use/Widget.html...
+Generating /var/jenkins_home/workspace/webgoat_freebuild_/example/target/apidocs/com/github/maven/example/package-use.html...
+Building index for all the packages and classes...
+Generating /var/jenkins_home/workspace/webgoat_freebuild_/example/target/apidocs/overview-tree.html...
+Generating /var/jenkins_home/workspace/webgoat_freebuild_/example/target/apidocs/index-all.html...
+Generating /var/jenkins_home/workspace/webgoat_freebuild_/example/target/apidocs/deprecated-list.html...
+Building index for all classes...
+Generating /var/jenkins_home/workspace/webgoat_freebuild_/example/target/apidocs/allclasses-frame.html...
+Generating /var/jenkins_home/workspace/webgoat_freebuild_/example/target/apidocs/allclasses-noframe.html...
+Generating /var/jenkins_home/workspace/webgoat_freebuild_/example/target/apidocs/index.html...
+Generating /var/jenkins_home/workspace/webgoat_freebuild_/example/target/apidocs/help-doc.html...
+1 warning
+[WARNING] Javadoc Warnings
+[WARNING] /var/jenkins_home/workspace/webgoat_freebuild_/example/src/main/java/com/github/maven/example/Widget.java:29: warning: no description for @param
+[WARNING] * @param enabled
+[WARNING] ^
+[INFO] Building jar: /var/jenkins_home/workspace/webgoat_freebuild_/example/target/github-maven-example-0.1-SNAPSHOT-javadoc.jar
+[INFO] 
+[INFO] >>> maven-source-plugin:3.2.0:jar (default) > generate-sources @ github-maven-example >>>
+[INFO] 
+[INFO] <<< maven-source-plugin:3.2.0:jar (default) < generate-sources @ github-maven-example <<<
+[INFO] 
+[INFO] --- maven-source-plugin:3.2.0:jar (default) @ github-maven-example ---
+[INFO] Building jar: /var/jenkins_home/workspace/webgoat_freebuild_/example/target/github-maven-example-0.1-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ github-maven-example ---
+[INFO] Installing /var/jenkins_home/workspace/webgoat_freebuild_/example/target/github-maven-example-0.1-SNAPSHOT.jar to /root/.m2/repository/com/github/kevinsawicki/github-maven-example/0.1-SNAPSHOT/github-maven-example-0.1-SNAPSHOT.jar
+[INFO] Installing /var/jenkins_home/workspace/webgoat_freebuild_/example/pom.xml to /root/.m2/repository/com/github/kevinsawicki/github-maven-example/0.1-SNAPSHOT/github-maven-example-0.1-SNAPSHOT.pom
+[INFO] Installing /var/jenkins_home/workspace/webgoat_freebuild_/example/target/github-maven-example-0.1-SNAPSHOT-javadoc.jar to /root/.m2/repository/com/github/kevinsawicki/github-maven-example/0.1-SNAPSHOT/github-maven-example-0.1-SNAPSHOT-javadoc.jar
+[INFO] Installing /var/jenkins_home/workspace/webgoat_freebuild_/example/target/github-maven-example-0.1-SNAPSHOT-sources.jar to /root/.m2/repository/com/github/kevinsawicki/github-maven-example/0.1-SNAPSHOT/github-maven-example-0.1-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- downloads-maven-plugin:0.6:upload (default) @ github-maven-example ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.474 s
+[INFO] Finished at: 2019-12-02T14:05:43+00:00
+[INFO] Final Memory: 23M/164M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal com.github.github:downloads-maven-plugin:0.6:upload (default) on project github-maven-example: Execution default of goal com.github.github:downloads-maven-plugin:0.6:upload failed: An API incompatibility was encountered while executing com.github.github:downloads-maven-plugin:0.6:upload: java.lang.NoSuchMethodError: org.apache.maven.execution.MavenSession.getRepositorySession()Lorg/sonatype/aether/RepositorySystemSession;
+[ERROR] -----------------------------------------------------
+[ERROR] realm =    plugin>com.github.github:downloads-maven-plugin:0.6
+[ERROR] strategy = org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy
+[ERROR] urls[0] = file:/root/.m2/repository/com/github/github/downloads-maven-plugin/0.6/downloads-maven-plugin-0.6.jar
+[ERROR] urls[1] = file:/root/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar
+[ERROR] urls[2] = file:/root/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar
+[ERROR] urls[3] = file:/root/.m2/repository/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar
+[ERROR] urls[4] = file:/root/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar
+[ERROR] urls[5] = file:/root/.m2/repository/org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.jar
+[ERROR] urls[6] = file:/root/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar
+[ERROR] urls[7] = file:/root/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar
+[ERROR] urls[8] = file:/root/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar
+[ERROR] urls[9] = file:/root/.m2/repository/org/eclipse/mylyn/github/org.eclipse.egit.github.core/1.3.6/org.eclipse.egit.github.core-1.3.6.jar
+[ERROR] urls[10] = file:/root/.m2/repository/com/google/code/gson/gson/2.1/gson-2.1.jar
+[ERROR] urls[11] = file:/root/.m2/repository/com/github/github/github-maven-core/0.5/github-maven-core-0.5.jar
+[ERROR] Number of foreign imports: 1
+[ERROR] import: Entry[import  from realm ClassRealm[maven.api, parent: null]]
+[ERROR] 
+[ERROR] -----------------------------------------------------
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginContainerException
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

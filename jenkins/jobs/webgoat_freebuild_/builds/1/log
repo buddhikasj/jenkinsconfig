@@ -1,0 +1,27 @@
+Started by user unknown or anonymous
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/webgoat_freebuild_
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/kevinsawicki/github-maven-example.git
+ > git init /var/jenkins_home/workspace/webgoat_freebuild_ # timeout=10
+Fetching upstream changes from https://github.com/kevinsawicki/github-maven-example.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/kevinsawicki/github-maven-example.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/kevinsawicki/github-maven-example.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/kevinsawicki/github-maven-example.git # timeout=10
+Fetching upstream changes from https://github.com/kevinsawicki/github-maven-example.git
+ > git fetch --tags --progress -- https://github.com/kevinsawicki/github-maven-example.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 27374b94fe4708c92e313d944cdc1bdd43841df6 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 27374b94fe4708c92e313d944cdc1bdd43841df6 # timeout=10
+Commit message: "Upgrade to latest download & site plugin versions"
+First time build. Skipping changelog.
+[webgoat_freebuild_] $ /bin/sh -xe /tmp/jenkins7665168109168561389.sh
++ cd github-maven-example/example
+/tmp/jenkins7665168109168561389.sh: 2: cd: can't cd to github-maven-example/example
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

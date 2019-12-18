@@ -1,0 +1,10 @@
+Started by user unknown or anonymous
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/temp
+[temp] $ /bin/sh -xe /tmp/jenkins5212846996451834689.sh
++ date
+Thu Oct 31 02:01:37 UTC 2019
++ docker ps
+Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

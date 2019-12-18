@@ -1,0 +1,43 @@
+Started by user unknown or anonymous
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/temp
+using credential git-hub
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/buddhikasj/java.git # timeout=10
+Fetching upstream changes from https://github.com/buddhikasj/java.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/buddhikasj/java.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 774413bb232abf75e52c78cd6e6a76862e51b5d5 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 774413bb232abf75e52c78cd6e6a76862e51b5d5
+Commit message: "Add files via upload"
+ > git rev-list --no-walk 774413bb232abf75e52c78cd6e6a76862e51b5d5 # timeout=10
+Unpacking https://archive.apache.org/dist/ant/binaries/apache-ant-1.10.7-bin.zip to /var/jenkins_home/tools/hudson.tasks.Ant_AntInstallation/Ant_Installation on Jenkins
+[temp] $ /var/jenkins_home/tools/hudson.tasks.Ant_AntInstallation/Ant_Installation/bin/ant
+Buildfile: /var/jenkins_home/workspace/temp/build.xml
+
+[8mha:////4IGMIHXNgSlxyYuQBUR78Xda42bOet8Q+/gTmAWVRhRjAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mbuild-subprojects:
+
+[8mha:////4IGMIHXNgSlxyYuQBUR78Xda42bOet8Q+/gTmAWVRhRjAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0minit:
+
+[8mha:////4IGMIHXNgSlxyYuQBUR78Xda42bOet8Q+/gTmAWVRhRjAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mbuild-project:
+     [echo] HTTPweb: /var/jenkins_home/workspace/temp/build.xml
+
+[8mha:////4IGMIHXNgSlxyYuQBUR78Xda42bOet8Q+/gTmAWVRhRjAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mbuild:
+
+[8mha:////4FDjKquyv1fF5/T1/P4ibnIVD0UHx6DVEGLLEXi6JN2vAAAAYB+LCAAAAAAAAP9b85aBtbiIQSGjNKU4P0+vJLE4u1gvPjGvRM8xr8S/tCQ5PzfVL78ktUuDM0uMry+HiYGhoohBCqo8OT+vOD8nVc8ZQoMUMkAAI0hhAQAUXUdTXgAAAA==[0mBUILD SUCCESSFUL
+Total time: 2 seconds
+[temp] $ /bin/sh -xe /tmp/jenkins8421474307858801963.sh
++ ls
+404.html
+MANIFEST.MF
+bin
+build.xml
+index.html
+not_supported.html
+src
+Finished: SUCCESS

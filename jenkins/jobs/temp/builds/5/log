@@ -1,0 +1,10 @@
+Started by user unknown or anonymous
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/temp
+[temp] $ /bin/sh -xe /tmp/jenkins5451552610971042529.sh
++ date
+Thu Oct 31 02:01:07 UTC 2019
++ service docker status
+Docker is not running ... failed!
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

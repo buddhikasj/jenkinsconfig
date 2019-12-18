@@ -1,0 +1,11 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<org.jenkinsci.plugins.aquadockerscannerbuildstep.AquaDockerScannerBuilder_-DescriptorImpl plugin="aqua-security-scanner@3.0.21">
+  <aquaScannerImage>registry.aquasec.com/scanner:4.5</aquaScannerImage>
+  <apiURL>{AQAAABAAAAAgYQhLmJcRCW0NgheArXUxId550AFC2hsOsC0DcXB3stp/wefUOaAlqJux+kDCFbs+}</apiURL>
+  <user>{AQAAABAAAAAQjgCUXWKJZL+/RXlzJ0zKyQOjczsXYQbFmjlQ5oD1vJU=}</user>
+  <password>{AQAAABAAAAAQMHkEoqrzs6NziFCSk/fx3aGzF2BuPWm4xrEB5ozVwb0=}</password>
+  <version>3.x</version>
+  <timeout>0</timeout>
+  <runOptions></runOptions>
+  <caCertificates>false</caCertificates>
+</org.jenkinsci.plugins.aquadockerscannerbuildstep.AquaDockerScannerBuilder_-DescriptorImpl>

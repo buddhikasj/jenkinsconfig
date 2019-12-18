@@ -1,0 +1,122 @@
+Started by user unknown or anonymous
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/webgoat_freebuild_
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/buddhikasj/goatweb.git # timeout=10
+Fetching upstream changes from https://github.com/buddhikasj/goatweb.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/buddhikasj/goatweb.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 69d8cde4fb777a4ac03bed777ff128c82e1389a4 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 69d8cde4fb777a4ac03bed777ff128c82e1389a4 # timeout=10
+Commit message: "Create simple-web-app-1.3.0-BUILD-SNAPSHOT.jar"
+ > git rev-list --no-walk 2b77a6fee960e26e2ce301284c4fd37459f3848c # timeout=10
+[webgoat_freebuild_] $ /bin/sh -xe /tmp/jenkins4785802281277810028.sh
++ mvn clean install
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building simple-web-app 1.3.0-BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ simple-web-app ---
+[INFO] Deleting /var/jenkins_home/workspace/webgoat_freebuild_/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ simple-web-app ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ simple-web-app ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /var/jenkins_home/workspace/webgoat_freebuild_/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ simple-web-app ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ simple-web-app ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ simple-web-app ---
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ simple-web-app ---
+[INFO] Building jar: /var/jenkins_home/workspace/webgoat_freebuild_/target/simple-web-app-1.3.0-BUILD-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ simple-web-app ---
+[INFO] Installing /var/jenkins_home/workspace/webgoat_freebuild_/target/simple-web-app-1.3.0-BUILD-SNAPSHOT.jar to /root/.m2/repository/org/mitre/simple-web-app/1.3.0-BUILD-SNAPSHOT/simple-web-app-1.3.0-BUILD-SNAPSHOT.jar
+[INFO] Installing /var/jenkins_home/workspace/webgoat_freebuild_/pom.xml to /root/.m2/repository/org/mitre/simple-web-app/1.3.0-BUILD-SNAPSHOT/simple-web-app-1.3.0-BUILD-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:sources (install) @ simple-web-app ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    log4j:log4j:jar:sources:1.2.17:runtime
+[INFO]    com.github.stephenc.jcip:jcip-annotations:jar:sources:1.0-1:compile
+[INFO]    com.fasterxml.jackson.core:jackson-databind:jar:sources:2.9.0.pr2:compile
+[INFO]    org.apache.httpcomponents:httpclient:jar:sources:4.5.3:compile
+[INFO]    org.springframework:spring-web:jar:sources:4.3.7.RELEASE:compile
+[INFO]    com.google.guava:guava:jar:sources:21.0:compile
+[INFO]    org.mitre:openid-connect-client:jar:sources:1.3.1:compile
+[INFO]    org.springframework:spring-test:jar:sources:4.3.7.RELEASE:compile
+[INFO]    org.springframework.security:spring-security-taglibs:jar:sources:4.2.2.RELEASE:compile
+[INFO]    javax.servlet:jstl:jar:sources:1.2:compile
+[INFO]    org.springframework:spring-aop:jar:sources:4.3.7.RELEASE:compile
+[INFO]    org.springframework.security:spring-security-acl:jar:sources:4.2.2.RELEASE:compile
+[INFO]    org.bouncycastle:bcprov-jdk15on:jar:sources:1.64:compile
+[INFO]    net.minidev:json-smart:jar:sources:1.3.1:compile
+[INFO]    org.springframework:spring-expression:jar:sources:4.3.7.RELEASE:compile
+[INFO]    org.springframework:spring-core:jar:sources:4.3.7.RELEASE:compile
+[INFO]    com.nimbusds:nimbus-jose-jwt:jar:sources:4.34.2:compile
+[INFO]    org.slf4j:slf4j-log4j12:jar:sources:1.7.25:runtime
+[INFO]    commons-codec:commons-codec:jar:sources:1.9:compile
+[INFO]    org.springframework:spring-beans:jar:sources:4.3.7.RELEASE:compile
+[INFO]    org.slf4j:jcl-over-slf4j:jar:sources:1.7.25:runtime
+[INFO]    org.springframework:spring-webmvc:jar:sources:4.3.7.RELEASE:compile
+[INFO]    javax.servlet.jsp:jsp-api:jar:sources:2.1:provided
+[INFO]    org.eclipse.persistence:javax.persistence:jar:sources:2.1.1:compile
+[INFO]    org.springframework.security:spring-security-config:jar:sources:4.2.2.RELEASE:compile
+[INFO]    com.fasterxml.jackson.core:jackson-core:jar:sources:2.9.0.pr2:compile
+[INFO]    org.slf4j:slf4j-api:jar:sources:1.7.25:compile
+[INFO]    org.springframework.security:spring-security-core:jar:sources:4.2.2.RELEASE:compile
+[INFO]    javax.inject:javax.inject:jar:sources:1:compile
+[INFO]    org.codehaus.jackson:jackson-core-asl:jar:sources:1.9.13:compile
+[INFO]    junit:junit:jar:sources:4.12:test
+[INFO]    org.mitre:openid-connect-common:jar:sources:1.3.1:compile
+[INFO]    org.codehaus.jackson:jackson-mapper-asl:jar:sources:1.9.13:compile
+[INFO]    com.google.code.gson:gson:jar:sources:2.8.0:compile
+[INFO]    aopalliance:aopalliance:jar:sources:1.0:compile
+[INFO]    org.springframework.security.oauth:spring-security-oauth2:jar:sources:2.1.0.RELEASE:compile
+[INFO]    com.fasterxml.jackson.core:jackson-annotations:jar:sources:2.9.0.pr2:compile
+[INFO]    javax.servlet:servlet-api:jar:sources:2.5:provided
+[INFO]    org.springframework:spring-context:jar:sources:4.3.7.RELEASE:compile
+[INFO]    org.springframework.security:spring-security-web:jar:sources:4.2.2.RELEASE:compile
+[INFO]    org.hamcrest:hamcrest-core:jar:sources:1.3:test
+[INFO]    org.bouncycastle:bcpkix-jdk15on:jar:sources:1.55:compile
+[INFO]    org.apache.httpcomponents:httpcore:jar:sources:4.4.6:compile
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 9.457 s
+[INFO] Finished at: 2019-12-02T18:38:52+00:00
+[INFO] Final Memory: 23M/168M
+[INFO] ------------------------------------------------------------------------
++ ls -1 target
+classes
+generated-sources
+maven-archiver
+maven-status
+simple-web-app-1.3.0-BUILD-SNAPSHOT.jar
+test-classes
++ git config --global user.email bsj199@gmail.com
++ git commit -m Updated version number target/simple-web-app-1.3.0-BUILD-SNAPSHOT.jar
+[detached HEAD df10654] Updated version number
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rewrite target/simple-web-app-1.3.0-BUILD-SNAPSHOT.jar (100%)
+Finished: SUCCESS

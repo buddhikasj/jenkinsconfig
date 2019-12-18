@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='aqua-security-scanner' version='3.0.21'><l:dependency name='Aqua Security Scanner' groupId='org.jenkins-ci.plugins' artifactId='aqua-security-scanner' version='3.0.21' url='https://github.com/jenkinsci/aqua-security-scanner-plugin/blob/master/version.md'><l:description>Scans Docker images for vulnerabilities</l:description><l:license name='Apache License, Version 2.0' url='https://www.apache.org/licenses/LICENSE-2.0.txt'/></l:dependency></l:dependencies>

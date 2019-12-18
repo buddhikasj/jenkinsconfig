@@ -1,0 +1,153 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.35">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.15">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <org.jenkinsci.plugins.twistlock.publisher.ScanResultAction plugin="twistlock-jenkins-plugin@19.07.363">
+      <owner class="flow-build" reference="../../.."/>
+      <healthDescriptor class="org.jenkinsci.plugins.twistlock.publisher.ScanHealthDescriptor">
+        <priority>LOW</priority>
+        <thresholds plugin="analysis-core@1.96">
+          <unstableTotalAll></unstableTotalAll>
+          <unstableTotalHigh></unstableTotalHigh>
+          <unstableTotalNormal></unstableTotalNormal>
+          <unstableTotalLow></unstableTotalLow>
+          <unstableNewAll></unstableNewAll>
+          <unstableNewHigh></unstableNewHigh>
+          <unstableNewNormal></unstableNewNormal>
+          <unstableNewLow></unstableNewLow>
+          <failedTotalAll></failedTotalAll>
+          <failedTotalHigh></failedTotalHigh>
+          <failedTotalNormal></failedTotalNormal>
+          <failedTotalLow></failedTotalLow>
+          <failedNewAll></failedNewAll>
+          <failedNewHigh></failedNewHigh>
+          <failedNewNormal></failedNewNormal>
+          <failedNewLow></failedNewLow>
+        </thresholds>
+      </healthDescriptor>
+      <result class="org.jenkinsci.plugins.twistlock.publisher.ScanResult">
+        <owner class="flow-build" reference="../../../.."/>
+        <modules/>
+        <numberOfModules>0</numberOfModules>
+        <numberOfWarnings>50</numberOfWarnings>
+        <numberOfNewWarnings>50</numberOfNewWarnings>
+        <numberOfFixedWarnings>0</numberOfFixedWarnings>
+        <delta>50</delta>
+        <lowDelta>35</lowDelta>
+        <normalDelta>14</normalDelta>
+        <highDelta>1</highDelta>
+        <lowWarnings>35</lowWarnings>
+        <normalWarnings>14</normalWarnings>
+        <highWarnings>1</highWarnings>
+        <zeroWarningsSinceBuild>0</zeroWarningsSinceBuild>
+        <zeroWarningsSinceDate>0</zeroWarningsSinceDate>
+        <zeroWarningsHighScore>0</zeroWarningsHighScore>
+        <isZeroWarningsHighscore>false</isZeroWarningsHighscore>
+        <highScoreGap>0</highScoreGap>
+        <errors/>
+        <pluginResult>SUCCESS</pluginResult>
+        <successfulSinceBuild>0</successfulSinceBuild>
+        <successfulSinceDate>0</successfulSinceDate>
+        <successfulHighscore>0</successfulHighscore>
+        <isSuccessfulHighscore>false</isSuccessfulHighscore>
+        <successfulHighScoreGap>0</successfulHighScoreGap>
+        <isSuccessfulStateTouched>false</isSuccessfulStateTouched>
+        <referenceBuild>-1</referenceBuild>
+        <numberOfImages>1</numberOfImages>
+        <numberOfVulnerabilities>50</numberOfVulnerabilities>
+      </result>
+    </org.jenkinsci.plugins.twistlock.publisher.ScanResultAction>
+  </actions>
+  <queueId>43</queueId>
+  <timestamp>1573712858039</timestamp>
+  <startTime>1573712858040</startTime>
+  <result>SUCCESS</result>
+  <duration>43240</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>SUCCESS</result>
+    <script>node {
+   stage(&apos;Preparation&apos;) {
+       // for display purposes
+       echo &quot;Preparing&quot;
+   }
+
+   stage(&apos;Build&apos;) {
+       // Build an image for scanning
+       sh &apos;echo &quot;FROM ubuntu:14.04&quot; &gt; Dockerfile&apos;
+       sh &apos;echo &quot;MAINTAINER Aqsa Fatima &lt;aqsa@twistlock.com&gt;&quot; &gt;&gt; Dockerfile&apos;
+       sh &apos;echo &quot;RUN mkdir -p /tmp/test/dir&quot; &gt;&gt; Dockerfile&apos;
+       sh &apos;docker build --no-cache -t dev/ubun2:test .&apos;
+   }
+
+  stage(&apos;Scan&apos;) {
+    twistlockScan ca: &apos;&apos;,
+      cert: &apos;&apos;,
+      compliancePolicy: &apos;critical&apos;,
+      dockerAddress: &apos;unix:///var/run/docker.sock&apos;,
+      gracePeriodDays: 0,
+      ignoreImageBuildTime: true,
+      image: &apos;dev/ubun2:test&apos;,
+      key: &apos;&apos;,
+      logLevel: &apos;true&apos;,
+      policy: &apos;warn&apos;,
+      requirePackageUpdate: false,
+      timeout: 10
+    }
+
+  stage(&apos;Publish&apos;) {
+     twistlockPublish ca: &apos;&apos;,
+        cert: &apos;&apos;,
+        dockerAddress: &apos;unix:///var/run/docker.sock&apos;,
+        ignoreImageBuildTime: true,
+        image: &apos;dev/ubun2:test&apos;,
+        key: &apos;&apos;,
+        logLevel: &apos;true&apos;,
+        timeout: 10
+
+        }
+}</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>119244115</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>16246252</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>455583201</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>34812645</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>25891013</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>30</iota>
+    <head>1:30</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

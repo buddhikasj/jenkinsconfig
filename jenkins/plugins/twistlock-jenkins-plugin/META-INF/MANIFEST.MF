@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: root
+Build-Jdk: 1.8.0_65
+Extension-Name: twistlock-jenkins-plugin
+Specification-Title: This plugin integrates with Twistlock Container S
+ ecurity to scan created Docker images for CIS compliance and vulnerab
+ ilities assessment
+Implementation-Title: twistlock-jenkins-plugin
+Implementation-Version: 19.11.480
+Plugin-Class: org.jenkinsci.plugins.twistlock.publisher.TwistlockPlugin
+Group-Id: twistlock
+Short-Name: twistlock-jenkins-plugin
+Long-Name: twistlock-jenkins-plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/TWISTLOCK+Plugin
+Plugin-Version: 19.11.480
+Hudson-Version: 2.7.1
+Jenkins-Version: 2.7.1
+PluginFirstClassLoader: true
+Plugin-Dependencies: analysis-core:1.86;resolution:=optional,dashboard
+ -view:2.9.10;resolution:=optional
+Plugin-Developers: 
+

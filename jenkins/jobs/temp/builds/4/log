@@ -1,0 +1,10 @@
+Started by user [8mha:////4KFvYFLW+48ZWnGWD+w0P9ZpCpzFFVkOvWvx9tlrah6OAAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZO/dLi1CL93MwSAAhwuzO+AAAA[0mmit
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/temp
+[temp] $ /bin/sh -xe /tmp/jenkins1210664788095125767.sh
++ date
+Wed Oct 30 19:18:41 UTC 2019
++ service docker status
+docker: unrecognized service
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

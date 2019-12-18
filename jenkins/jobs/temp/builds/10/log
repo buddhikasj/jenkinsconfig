@@ -1,0 +1,10 @@
+Started by user unknown or anonymous
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/temp
+[temp] $ /bin/sh -xe /tmp/jenkins313804744985165507.sh
++ date
+Thu Oct 31 04:31:37 UTC 2019
++ docker ps
+/tmp/jenkins313804744985165507.sh: 4: /tmp/jenkins313804744985165507.sh: docker: not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

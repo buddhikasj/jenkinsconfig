@@ -1,0 +1,31 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.3">
+  <node class="cps.n.StepStartNode" plugin="workflow-cps@2.74">
+    <parentIds>
+      <string>9</string>
+    </parentIds>
+    <id>10</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.EnvStep</descriptorId>
+  </node>
+  <actions>
+    <s.a.LogStorageAction/>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.74">
+      <arguments>
+        <entry>
+          <string>overrides</string>
+          <list>
+            <string>GIT_BRANCH=master</string>
+            <string>GIT_COMMIT=3070c08518ff3b6fc1b30617d0afc84a59ac9c62</string>
+            <string>GIT_PREVIOUS_COMMIT=2bc2e5abe34210ba69c92779b71874cbebb3452c</string>
+            <string>GIT_PREVIOUS_SUCCESSFUL_COMMIT=39183ef184345c3d5f114cdb05b52b8e63a2b962</string>
+            <string>GIT_URL=https://github.com/buddhikasj/webgoat.git</string>
+          </list>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.37">
+      <startTime>1575556700006</startTime>
+    </wf.a.TimingAction>
+  </actions>
+</Tag>

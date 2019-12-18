@@ -1,0 +1,33 @@
+commit 8f7a4b36402d50e744d2e3dc53a003c2212fec90
+tree 649ca4a577592930e9476af1c93a3b0baed0c2fb
+parent 772430fd548e5d1976c98625859f239058bf7f56
+author buddhikasj <57128404+buddhikasj@users.noreply.github.com> 2019-11-04 15:43:16 +0530
+committer GitHub <noreply@github.com> 2019-11-04 15:43:16 +0530
+
+    Update Jenkinsfile
+
+
+
+:100644 100644 688921d49dda4e9418f5d812e52702db36fe4318 5a1f32e1cf642cd1512a0151dacf1b1ed734aa64 M	Jenkinsfile
+commit 772430fd548e5d1976c98625859f239058bf7f56
+tree 345bc75218f7e0ab112e68c6c93848423c20a915
+parent 62ac21b608ff5c9c83db35b0ef8944480fd6b88d
+author buddhikasj <57128404+buddhikasj@users.noreply.github.com> 2019-11-04 15:41:08 +0530
+committer GitHub <noreply@github.com> 2019-11-04 15:41:08 +0530
+
+    updated the deploy command to be sh
+
+
+
+:100644 100644 4e81f66f639b6d56d3aa7b6e0df814b60dadb6fa 688921d49dda4e9418f5d812e52702db36fe4318 M	Jenkinsfile
+commit 62ac21b608ff5c9c83db35b0ef8944480fd6b88d
+tree 1f1af881065058f9ef9bfe0af5ae9a31f42d6787
+parent 2b98d8fbfcf7e24b644159f6eea38ce5a32a7e75
+author buddhikasj <57128404+buddhikasj@users.noreply.github.com> 2019-11-04 15:38:36 +0530
+committer GitHub <noreply@github.com> 2019-11-04 15:38:36 +0530
+
+    added stages
+
+
+
+:100644 100644 5a587e9cd870f018085b479f054061737c7426d9 4e81f66f639b6d56d3aa7b6e0df814b60dadb6fa M	Jenkinsfile

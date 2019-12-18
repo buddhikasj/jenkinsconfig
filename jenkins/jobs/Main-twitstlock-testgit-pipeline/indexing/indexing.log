@@ -1,0 +1,26 @@
+Started
+[Thu Oct 31 01:54:15 UTC 2019] Starting branch indexing...
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git ls-remote --symref -- https://github.com/buddhikasj/test.git # timeout=10
+ > git rev-parse --is-inside-work-tree # timeout=10
+Setting origin to https://github.com/buddhikasj/test.git
+ > git config remote.origin.url https://github.com/buddhikasj/test.git # timeout=10
+Fetching & pruning origin...
+Listing remote references...
+ > git config --get remote.origin.url # timeout=10
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git ls-remote -h -- https://github.com/buddhikasj/test.git # timeout=10
+Fetching upstream changes from origin
+ > git config --get remote.origin.url # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress --prune -- origin +refs/heads/*:refs/remotes/origin/*
+Checking branches...
+  Checking branch master
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: master (still at 2b98d8fbfcf7e24b644159f6eea38ce5a32a7e75)
+Processed 1 branches
+[Thu Oct 31 01:54:25 UTC 2019] Finished branch indexing. Indexing took 10 sec
+Finished: SUCCESS

@@ -1,0 +1,10 @@
+Started by user [8mha:////4KFvYFLW+48ZWnGWD+w0P9ZpCpzFFVkOvWvx9tlrah6OAAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZO/dLi1CL93MwSAAhwuzO+AAAA[0mmit
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/temp
+[temp] $ /bin/sh -xe /tmp/jenkins7506214548962895782.sh
++ date
+Wed Oct 30 19:16:36 UTC 2019
++ docker ps
+/tmp/jenkins7506214548962895782.sh: 3: /tmp/jenkins7506214548962895782.sh: docker: not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

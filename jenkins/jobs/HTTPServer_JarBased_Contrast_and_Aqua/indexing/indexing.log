@@ -1,0 +1,23 @@
+Started by user unknown or anonymous
+[Mon Dec 02 16:28:38 UTC 2019] Starting branch indexing...
+ > git --version # timeout=10
+ > git ls-remote --symref -- https://github.com/buddhikasj/webgoat.git # timeout=10
+ > git rev-parse --is-inside-work-tree # timeout=10
+Setting origin to https://github.com/buddhikasj/webgoat.git
+ > git config remote.origin.url https://github.com/buddhikasj/webgoat.git # timeout=10
+Fetching & pruning origin...
+Listing remote references...
+ > git config --get remote.origin.url # timeout=10
+ > git --version # timeout=10
+ > git ls-remote -h -- https://github.com/buddhikasj/webgoat.git # timeout=10
+Fetching upstream changes from origin
+ > git config --get remote.origin.url # timeout=10
+ > git fetch --tags --progress --prune -- origin +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking branches...
+  Checking branch master
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: master (still at df9946bed01b7782e38d20d5309bf8a1ea1a065e)
+Processed 1 branches
+[Mon Dec 02 16:28:44 UTC 2019] Finished branch indexing. Indexing took 6.7 sec
+Finished: SUCCESS

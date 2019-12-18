@@ -1,0 +1,29 @@
+Started by user unknown or anonymous
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/temp
+using credential git-hub
+Cloning the remote Git repository
+Cloning repository https://github.com/buddhikasj/java.git
+ > git init /var/jenkins_home/workspace/temp # timeout=10
+Fetching upstream changes from https://github.com/buddhikasj/java.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/buddhikasj/java.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/buddhikasj/java.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/buddhikasj/java.git # timeout=10
+Fetching upstream changes from https://github.com/buddhikasj/java.git
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/buddhikasj/java.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision cf3bd5881f9938cf493b62427fb8b2052ccf5c37 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f cf3bd5881f9938cf493b62427fb8b2052ccf5c37
+Commit message: "Add files via upload"
+First time build. Skipping changelog.
+[temp] $ /bin/sh -xe /tmp/jenkins8097133009603664502.sh
++ mvn clean package
+/tmp/jenkins8097133009603664502.sh: line 2: mvn: not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

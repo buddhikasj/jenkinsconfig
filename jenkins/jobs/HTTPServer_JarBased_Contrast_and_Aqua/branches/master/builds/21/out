@@ -1,0 +1,7 @@
+2019-12-05 14:38:22.929	[34mINFO[0m	Registering with server	{"os": "linux", "os_version": "", "registries": []}
+2019-12-05 14:38:23.000	[34mINFO[0m	Successfully registered	{"scanner_id": 14}
+2019-12-05 14:38:23.139	[34mINFO[0m	Connecting to registry...	{"registry": "", "image": "buddhikasj88/contrast-HTTPserver:21", "requested platform": "amd64:::", "job ID": "ec14242d-09ed-41e3-bd6c-e367a396365b", "server version": "4.5.5be1eb88"}
+2019-12-05 14:38:23.140	[34mINFO[0m	Requesting authorization to pull image...	{"registry": "", "image": "buddhikasj88/contrast-HTTPserver:21", "requested platform": "amd64:::", "job ID": "ec14242d-09ed-41e3-bd6c-e367a396365b", "server version": "4.5.5be1eb88"}
+2019-12-05 14:38:23.196	[34mINFO[0m	Processing results...	{"registry": "", "image": "buddhikasj88/contrast-HTTPserver:21", "requested platform": "amd64:::", "job ID": "ec14242d-09ed-41e3-bd6c-e367a396365b", "server version": "4.5.5be1eb88"}
+2019-12-05 14:38:23.196	[34mINFO[0m	Deregistering from console
+2019-12-05 14:38:23.264	[31mERROR[0m	ERROR: Failed scanning image: failed processing scan job: repository was not found in registry

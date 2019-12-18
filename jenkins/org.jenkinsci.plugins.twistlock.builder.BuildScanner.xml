@@ -1,0 +1,6 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<org.jenkinsci.plugins.twistlock.builder.BuildScannerDescriptor plugin="twistlock-jenkins-plugin@19.07.363">
+  <address>https://172.17.0.2:8083</address>
+  <username>{AQAAABAAAAAQN6RjvzXVaLm9hT/kv0X2zK4lHMCeId0tqTVeJm5wwgk=}</username>
+  <password>{AQAAABAAAAAQc8RBy/l530tKCJkW3CJw4/vKe0X0XPwujjrHpYrWvMw=}</password>
+</org.jenkinsci.plugins.twistlock.builder.BuildScannerDescriptor>

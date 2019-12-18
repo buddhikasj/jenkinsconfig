@@ -1,0 +1,10 @@
+HTTPServer_JarBased_Contrast_and_Aqua/master
+arBased_Contrast_and_Aqua_master
+Java_Mevan_Test/master
+Java_Mevan_Test_master
+Main-twitstlock-testgit-pipeline/master
+itstlock-testgit-pipeline_master
+WebAPP_MAVEN_Java/master
+WebAPP_MAVEN_Java_master
+temp test/master
+temp_test_master

@@ -1,0 +1,77 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.3">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2.74">
+    <parentIds>
+      <string>19</string>
+    </parentIds>
+    <id>20</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.CoreStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.74">
+      <arguments>
+        <entry>
+          <string>delegate</string>
+          <org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable plugin="structs@1.20">
+            <symbol>twistlockScan</symbol>
+            <arguments class="tree-map">
+              <entry>
+                <string>ca</string>
+                <string></string>
+              </entry>
+              <entry>
+                <string>cert</string>
+                <string></string>
+              </entry>
+              <entry>
+                <string>compliancePolicy</string>
+                <string>critical</string>
+              </entry>
+              <entry>
+                <string>dockerAddress</string>
+                <string>unix:///var/run/docker.sock</string>
+              </entry>
+              <entry>
+                <string>gracePeriodDays</string>
+                <int>0</int>
+              </entry>
+              <entry>
+                <string>ignoreImageBuildTime</string>
+                <boolean>true</boolean>
+              </entry>
+              <entry>
+                <string>image</string>
+                <string>dev/ubun2:test</string>
+              </entry>
+              <entry>
+                <string>key</string>
+                <string></string>
+              </entry>
+              <entry>
+                <string>logLevel</string>
+                <string>true</string>
+              </entry>
+              <entry>
+                <string>policy</string>
+                <string>warn</string>
+              </entry>
+              <entry>
+                <string>requirePackageUpdate</string>
+                <boolean>false</boolean>
+              </entry>
+              <entry>
+                <string>timeout</string>
+                <int>10</int>
+              </entry>
+            </arguments>
+          </org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.37">
+      <startTime>1573712888620</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>

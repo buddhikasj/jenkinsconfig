@@ -1,0 +1,199 @@
+Started by user unknown or anonymous
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4ABKIjisEcpdfvLax5U97sDUROoy65xmMBj3eIkmGyXrAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4AE0eRHGvyqJjMtaPwMqpcqQtddBxSz/M+D84G3bbyfoAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4EN+mI97XeZMQAjFdAHItRI6P3k2q8V5Bzdap+mdVoaOAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/Twistlock test
+[8mha:////4FVT3b1QpvZM161TO5pl7O+VArnAtVuc+acjfNy8LoyMAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4GRXDgg22oerQ827HYg7S4XONFUhvVKISN2ObvGKIjyTAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4Gc2bPAlX9XutDrU/dddA+FnkVKHFx/7uyBqhv3252BiAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Preparation)
+[8mha:////4LdoS3JPC/cY46mRBNQyvUP/FpulBGD9Zu8R0Lg3fx4MAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] echo
+Preparing
+[8mha:////4MK8c3N7ITLnYD0fAzYVhQ1TZscu7cycc/YAdjDJt4WAAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4HgmtxjWLnXvQP7g+i2uzoMUK/QMfmVqvZoAnd2FKm1SAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4GW/wS40YuZpQAKHake+NYvF0apTV5PaeVvVB3fpJEwoAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] stage
+[8mha:////4Nfz6sWb25HB0T6UrEcnbdVU4oDiw7hUKkuzg042Kn+/AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (Build)
+[8mha:////4HqZ/YK0xCLmZnvUBdP9aCjKDJqtRQNWMk3bx5A6scATAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] sh
++ echo FROM ubuntu:14.04
+[8mha:////4BrF4szoN1swjXfBYh9y8P4G7yg+JZxhxnVg4Vwi8ITtAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs35DNwLL4AAAA=[0m[Pipeline] sh
++ echo MAINTAINER Aqsa Fatima <aqsa@twistlock.com>
+[8mha:////4O5GupXbXNmlstKEmICboioCvkrdAcbOUA28MdqCt1iNAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaJm7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPYJ6rb91N6/ASOlMWO+AAAA[0m[Pipeline] sh
++ echo RUN mkdir -p /tmp/test/dir
+[8mha:////4EEWRMX2HuuI4+A2J+1NObls3VvhSr61rBbyOOPc1FgjAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyKawcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMPsEddt+au/fYpQqer4AAAA=[0m[Pipeline] sh
++ docker build --no-cache -t dev/ubun2:test .
+Sending build context to Docker daemon  2.048kB
+Step 1/3 : FROM ubuntu:14.04
+14.04: Pulling from library/ubuntu
+a7344f52cb74: Pulling fs layer
+515c9bb51536: Pulling fs layer
+e1eabe0537eb: Pulling fs layer
+4701f1215c13: Pulling fs layer
+4701f1215c13: Waiting
+e1eabe0537eb: Download complete
+515c9bb51536: Verifying Checksum
+515c9bb51536: Download complete
+4701f1215c13: Verifying Checksum
+4701f1215c13: Download complete
+a7344f52cb74: Verifying Checksum
+a7344f52cb74: Download complete
+a7344f52cb74: Pull complete
+515c9bb51536: Pull complete
+e1eabe0537eb: Pull complete
+4701f1215c13: Pull complete
+Digest: sha256:2f7c79927b346e436cc14c92bd4e5bd778c3bd7037f35bc639ac1589a7acfa90
+Status: Downloaded newer image for ubuntu:14.04
+ ---> 2c5e00d77a67
+Step 2/3 : MAINTAINER Aqsa Fatima <aqsa@twistlock.com>
+ ---> Running in 6ac9bb3f3dc0
+Removing intermediate container 6ac9bb3f3dc0
+ ---> 538a99f5a246
+Step 3/3 : RUN mkdir -p /tmp/test/dir
+ ---> Running in 68af0c609f2e
+Removing intermediate container 68af0c609f2e
+ ---> ae32fd545d24
+Successfully built ae32fd545d24
+Successfully tagged dev/ubun2:test
+[8mha:////4DTgpDcgrh0lA6NdeBoNqtIYDLfRCT6JMpk9q6AxzpDJAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyaWwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfMnS0t74AAAA=[0m[Pipeline] }
+[8mha:////4NZk4Dgv7MqbnumL36yJHGzE6xR0Sb+eHnbCwfypbzLgAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICFQWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BgGX7wu+AAAA[0m[Pipeline] // stage
+[8mha:////4GIbOyR/aKzrpfF+YMoq32yldNetRO+wMXFPor95gt3NAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJAokREVrueEFJjbGiXUX7AtJxYv4Gn8gEImKrXZWWs3zBWVOcKDkZeOwDZjrILvY+6nJgVJ7iTTIhs6yJswUndRu0GTdcUZN7GCOKGChYOmwjpQDeoaVaszdVNGgr06cpm2voAj2Bg8QajKzSfyFMcH62ttM+PP8FcDYMYgtQ7HZfY7lG9tmeb3BAAAA[0m[Pipeline] stage
+[8mha:////4CJWuBVNoxw7DyYn6VPSHkmKJBBa72V7e8twG0sGELhwAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] { (Scan)
+[8mha:////4IrGw3FAo/rihxOptKh9Pp4+PKXRzSNDBi50554KWqFnAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICdAilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5e6Qa78dPhmQ9Da+AAAA[0m[Pipeline] twistlockScan
+[TWISTLOCK] Scanning images on master
+[TWISTLOCK] Waiting for scanner to complete
+[TWISTLOCK] /var/jenkins_home/workspace/Twistlock test/twistcli264854303840895903 images scan --docker-address unix:///var/run/docker.sock --ci --details --address https://172.17.0.2:8083 --compliance-threshold critical dev/ubun2:test
+$ "/var/jenkins_home/workspace/Twistlock test/twistcli264854303840895903" images scan --docker-address unix:///var/run/docker.sock --ci --details --address https://172.17.0.2:8083 --compliance-threshold critical dev/ubun2:test
+Vulnerabilities
+---------------
+Image             ID                  CVE                 Package       Version                              Severity    Status      CVSS
+-----             --                  ---                 -------       -------                              --------    ------      ----
+dev/ubun2:test    ae32fd545d24b853    CVE-2014-9984       eglibc        2.19-0ubuntu6.15                     medium      needed      9.8
+dev/ubun2:test    ae32fd545d24b853    CVE-2019-1559       openssl       1.0.1f-1ubuntu2.27                   medium      deferred    5.9
+dev/ubun2:test    ae32fd545d24b853    CVE-2019-5747       busybox       1:1.21.0-1ubuntu1.4                  medium      needed      7.5
+dev/ubun2:test    ae32fd545d24b853    CVE-2018-1000517    busybox       1:1.21.0-1ubuntu1.4                  medium      needed      9.8
+dev/ubun2:test    ae32fd545d24b853    CVE-2015-5602       sudo          1.8.9p5-1ubuntu1.4                   medium      needed      7.2
+dev/ubun2:test    ae32fd545d24b853    CVE-2018-1000500    busybox       1:1.21.0-1ubuntu1.4                  medium      deferred    8.1
+dev/ubun2:test    ae32fd545d24b853    CVE-2016-7076       sudo          1.8.9p5-1ubuntu1.4                   medium      needed      7.8
+dev/ubun2:test    ae32fd545d24b853    CVE-2017-16544      busybox       1:1.21.0-1ubuntu1.4                  medium      needed      8.8
+dev/ubun2:test    ae32fd545d24b853    CVE-2015-9261       busybox       1:1.21.0-1ubuntu1.4                  medium      needed      5.5
+dev/ubun2:test    ae32fd545d24b853    CVE-2019-7317       libpng        1.2.50-1ubuntu2.14.04.3              medium      deferred    5.3
+dev/ubun2:test    ae32fd545d24b853    CVE-2018-14048      libpng        1.2.50-1ubuntu2.14.04.3              medium      deferred    6.5
+dev/ubun2:test    ae32fd545d24b853    CVE-2019-7309       eglibc        2.19-0ubuntu6.15                     medium      needed      5.5
+dev/ubun2:test    ae32fd545d24b853    CVE-2018-6485       eglibc        2.19-0ubuntu6.15                     medium      needed      9.8
+dev/ubun2:test    ae32fd545d24b853    CVE-2017-12132      eglibc        2.19-0ubuntu6.15                     medium      needed      5.9
+dev/ubun2:test    ae32fd545d24b853    CVE-2016-2781       coreutils     8.21-1ubuntu5.4                      low         deferred    6.5
+dev/ubun2:test    ae32fd545d24b853    CVE-2018-7169       shadow        1:4.1.5.1-1ubuntu9.5                 low         needed      5.3
+dev/ubun2:test    ae32fd545d24b853    CVE-2016-3189       bzip2         1.0.6-5                              low         needed      6.5
+dev/ubun2:test    ae32fd545d24b853    CVE-2014-9761       eglibc        2.19-0ubuntu6.15                     low         needed      9.8
+dev/ubun2:test    ae32fd545d24b853    CVE-2017-12424      shadow        1:4.1.5.1-1ubuntu9.5                 low         needed      9.8
+dev/ubun2:test    ae32fd545d24b853    CVE-2015-5180       eglibc        2.19-0ubuntu6.15                     low         needed      7.5
+dev/ubun2:test    ae32fd545d24b853    CVE-2013-4235       shadow        1:4.1.5.1-1ubuntu9.5                 low         needed      0
+dev/ubun2:test    ae32fd545d24b853    CVE-2017-12133      eglibc        2.19-0ubuntu6.15                     low         needed      5.9
+dev/ubun2:test    ae32fd545d24b853    CVE-2018-8740       sqlite3       3.8.2-1ubuntu2.2                     low         needed      7.5
+dev/ubun2:test    ae32fd545d24b853    CVE-2017-2518       sqlite3       3.8.2-1ubuntu2.2                     low         needed      9.8
+dev/ubun2:test    ae32fd545d24b853    CVE-2014-5044       gcc-4.8       4.8.4-2ubuntu1~14.04.4               low         needed      9.8
+dev/ubun2:test    ae32fd545d24b853    CVE-2015-5276       gcc-4.8       4.8.4-2ubuntu1~14.04.4               low         needed      5
+dev/ubun2:test    ae32fd545d24b853    CVE-2017-11109      vim           2:7.4.052-1ubuntu3.1                 low         needed      7.8
+dev/ubun2:test    ae32fd545d24b853    CVE-2017-17087      vim           2:7.4.052-1ubuntu3.1                 low         needed      5.5
+dev/ubun2:test    ae32fd545d24b853    CVE-2017-5953       vim           2:7.4.052-1ubuntu3.1                 low         needed      9.8
+dev/ubun2:test    ae32fd545d24b853    CVE-2016-9843       zlib          1:1.2.8.dfsg-1ubuntu1.1              low         needed      9.8
+dev/ubun2:test    ae32fd545d24b853    CVE-2019-6129       libpng        1.2.50-1ubuntu2.14.04.3              low         deferred    8.8
+dev/ubun2:test    ae32fd545d24b853    CVE-2016-9842       zlib          1:1.2.8.dfsg-1ubuntu1.1              low         needed      8.8
+dev/ubun2:test    ae32fd545d24b853    CVE-2011-5325       busybox       1:1.21.0-1ubuntu1.4                  low         needed      0
+dev/ubun2:test    ae32fd545d24b853    CVE-2014-9645       busybox       1:1.21.0-1ubuntu1.4                  low         needed      5.5
+dev/ubun2:test    ae32fd545d24b853    CVE-2016-9841       zlib          1:1.2.8.dfsg-1ubuntu1.1              low         needed      9.8
+dev/ubun2:test    ae32fd545d24b853    CVE-2016-2147       busybox       1:1.21.0-1ubuntu1.4                  low         needed      7.5
+dev/ubun2:test    ae32fd545d24b853    CVE-2016-2148       busybox       1:1.21.0-1ubuntu1.4                  low         needed      9.8
+dev/ubun2:test    ae32fd545d24b853    CVE-2017-15873      busybox       1:1.21.0-1ubuntu1.4                  low         needed      5.5
+dev/ubun2:test    ae32fd545d24b853    CVE-2016-9840       zlib          1:1.2.8.dfsg-1ubuntu1.1              low         needed      8.8
+dev/ubun2:test    ae32fd545d24b853    CVE-2015-8239       sudo          1.8.9p5-1ubuntu1.4                   low         needed      7
+dev/ubun2:test    ae32fd545d24b853    CVE-2014-8625       dpkg          1.17.5ubuntu5.8                      low         needed      6.8
+dev/ubun2:test    ae32fd545d24b853    CVE-2018-20679      busybox       1:1.21.0-1ubuntu1.4                  low         needed      7.5
+dev/ubun2:test    ae32fd545d24b853    CVE-2018-20482      tar           1.27.1-1ubuntu0.1                    low         needed      4.7
+dev/ubun2:test    ae32fd545d24b853    CVE-2018-7170       ntp           1:4.2.6.p5+dfsg-3ubuntu2.14.04.13    low         needed      5.3
+dev/ubun2:test    ae32fd545d24b853    CVE-2016-2090       libbsd        0.6.0-2ubuntu1                       low         needed      9.8
+dev/ubun2:test    ae32fd545d24b853    CVE-2017-9525       cron          3.0pl1-124ubuntu2                    low         needed      6.7
+dev/ubun2:test    ae32fd545d24b853    CVE-2013-0157       util-linux    2.20.1-5.1ubuntu20.9                 low         needed      2.1
+dev/ubun2:test    ae32fd545d24b853    CVE-2014-9114       util-linux    2.20.1-5.1ubuntu20.9                 low         needed      7.8
+dev/ubun2:test    ae32fd545d24b853    CVE-2016-5011       util-linux    2.20.1-5.1ubuntu20.9                 low         needed      4.3
+
+Compliance
+----------
+Image             ID                  Severity    Description
+-----             --                  --------    -----------
+dev/ubun2:test    ae32fd545d24b853    high        (CIS_Docker_CE_v1.1.0 - 4.1) Image should be created with a non-root user
+Compliance threshold check results: PASS
+[8mha:////4KoUMWOqgAuXH1N8IPjUZB97UryGj5w8TWSM4FszZfJjAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0CFEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOW+zlUfPiXWgpW+AAAA[0m[Pipeline] }
+[8mha:////4KkvPEpDwF42LFBUxZ0Kwonrq1zO+yov3y7IUY6AwiiIAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRqZAQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AEdlBFkvgAAAA==[0m[Pipeline] // stage
+[8mha:////4P1rZfnM5V7NvOTWB4t7ssbbEyP16tyNGxjNYPtmuOgjAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjAR2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2Gw/x/INhYxW5sEAAAA=[0m[Pipeline] stage
+[8mha:////4GRzPvON9jjA1b8dKjdOPqF37sSBqo+gvtHbKPbGcZkIAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAd6e6VPCAAAA[0m[Pipeline] { (Publish)
+[8mha:////4E6SPWakLjaLv/mMGkJvC95O0X7JvWNI2UbNC2ECA+19AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN38C26S+AAAA[0m[Pipeline] twistlockPublish
+[TWISTLOCK] Publishing images analysis results
+[TWISTLOCK] Scanning images on master
+$ "/var/jenkins_home/workspace/Twistlock test/twistcli6550308016311384867" images scan --docker-address unix:///var/run/docker.sock --ci --details --address https://172.17.0.2:8083 dev/ubun2:test
+[TWISTLOCK] Waiting for scanner to complete
+[TWISTLOCK] /var/jenkins_home/workspace/Twistlock test/twistcli6550308016311384867 images scan --docker-address unix:///var/run/docker.sock --ci --details --address https://172.17.0.2:8083 dev/ubun2:test
+Vulnerabilities
+---------------
+Image             ID                  CVE                 Package       Version                              Severity    Status      CVSS
+-----             --                  ---                 -------       -------                              --------    ------      ----
+dev/ubun2:test    ae32fd545d24b853    CVE-2019-1559       openssl       1.0.1f-1ubuntu2.27                   medium      deferred    5.9
+dev/ubun2:test    ae32fd545d24b853    CVE-2018-6485       eglibc        2.19-0ubuntu6.15                     medium      needed      9.8
+dev/ubun2:test    ae32fd545d24b853    CVE-2017-12132      eglibc        2.19-0ubuntu6.15                     medium      needed      5.9
+dev/ubun2:test    ae32fd545d24b853    CVE-2015-5602       sudo          1.8.9p5-1ubuntu1.4                   medium      needed      7.2
+dev/ubun2:test    ae32fd545d24b853    CVE-2014-9984       eglibc        2.19-0ubuntu6.15                     medium      needed      9.8
+dev/ubun2:test    ae32fd545d24b853    CVE-2016-7076       sudo          1.8.9p5-1ubuntu1.4                   medium      needed      7.8
+dev/ubun2:test    ae32fd545d24b853    CVE-2019-7309       eglibc        2.19-0ubuntu6.15                     medium      needed      5.5
+dev/ubun2:test    ae32fd545d24b853    CVE-2019-5747       busybox       1:1.21.0-1ubuntu1.4                  medium      needed      7.5
+dev/ubun2:test    ae32fd545d24b853    CVE-2018-1000517    busybox       1:1.21.0-1ubuntu1.4                  medium      needed      9.8
+dev/ubun2:test    ae32fd545d24b853    CVE-2018-1000500    busybox       1:1.21.0-1ubuntu1.4                  medium      deferred    8.1
+dev/ubun2:test    ae32fd545d24b853    CVE-2017-16544      busybox       1:1.21.0-1ubuntu1.4                  medium      needed      8.8
+dev/ubun2:test    ae32fd545d24b853    CVE-2015-9261       busybox       1:1.21.0-1ubuntu1.4                  medium      needed      5.5
+dev/ubun2:test    ae32fd545d24b853    CVE-2019-7317       libpng        1.2.50-1ubuntu2.14.04.3              medium      deferred    5.3
+dev/ubun2:test    ae32fd545d24b853    CVE-2018-14048      libpng        1.2.50-1ubuntu2.14.04.3              medium      deferred    6.5
+dev/ubun2:test    ae32fd545d24b853    CVE-2017-9525       cron          3.0pl1-124ubuntu2                    low         needed      6.7
+dev/ubun2:test    ae32fd545d24b853    CVE-2015-5276       gcc-4.8       4.8.4-2ubuntu1~14.04.4               low         needed      5
+dev/ubun2:test    ae32fd545d24b853    CVE-2016-2090       libbsd        0.6.0-2ubuntu1                       low         needed      9.8
+dev/ubun2:test    ae32fd545d24b853    CVE-2013-4235       shadow        1:4.1.5.1-1ubuntu9.5                 low         needed      0
+dev/ubun2:test    ae32fd545d24b853    CVE-2014-5044       gcc-4.8       4.8.4-2ubuntu1~14.04.4               low         needed      9.8
+dev/ubun2:test    ae32fd545d24b853    CVE-2018-7169       shadow        1:4.1.5.1-1ubuntu9.5                 low         needed      5.3
+dev/ubun2:test    ae32fd545d24b853    CVE-2016-3189       bzip2         1.0.6-5                              low         needed      6.5
+dev/ubun2:test    ae32fd545d24b853    CVE-2017-5953       vim           2:7.4.052-1ubuntu3.1                 low         needed      9.8
+dev/ubun2:test    ae32fd545d24b853    CVE-2019-6129       libpng        1.2.50-1ubuntu2.14.04.3              low         deferred    8.8
+dev/ubun2:test    ae32fd545d24b853    CVE-2017-17087      vim           2:7.4.052-1ubuntu3.1                 low         needed      5.5
+dev/ubun2:test    ae32fd545d24b853    CVE-2017-12424      shadow        1:4.1.5.1-1ubuntu9.5                 low         needed      9.8
+dev/ubun2:test    ae32fd545d24b853    CVE-2017-2518       sqlite3       3.8.2-1ubuntu2.2                     low         needed      9.8
+dev/ubun2:test    ae32fd545d24b853    CVE-2018-8740       sqlite3       3.8.2-1ubuntu2.2                     low         needed      7.5
+dev/ubun2:test    ae32fd545d24b853    CVE-2011-5325       busybox       1:1.21.0-1ubuntu1.4                  low         needed      0
+dev/ubun2:test    ae32fd545d24b853    CVE-2014-9645       busybox       1:1.21.0-1ubuntu1.4                  low         needed      5.5
+dev/ubun2:test    ae32fd545d24b853    CVE-2017-11109      vim           2:7.4.052-1ubuntu3.1                 low         needed      7.8
+dev/ubun2:test    ae32fd545d24b853    CVE-2016-2147       busybox       1:1.21.0-1ubuntu1.4                  low         needed      7.5
+dev/ubun2:test    ae32fd545d24b853    CVE-2016-2148       busybox       1:1.21.0-1ubuntu1.4                  low         needed      9.8
+dev/ubun2:test    ae32fd545d24b853    CVE-2017-15873      busybox       1:1.21.0-1ubuntu1.4                  low         needed      5.5
+dev/ubun2:test    ae32fd545d24b853    CVE-2016-9843       zlib          1:1.2.8.dfsg-1ubuntu1.1              low         needed      9.8
+dev/ubun2:test    ae32fd545d24b853    CVE-2016-9842       zlib          1:1.2.8.dfsg-1ubuntu1.1              low         needed      8.8
+dev/ubun2:test    ae32fd545d24b853    CVE-2016-9841       zlib          1:1.2.8.dfsg-1ubuntu1.1              low         needed      9.8
+dev/ubun2:test    ae32fd545d24b853    CVE-2018-20679      busybox       1:1.21.0-1ubuntu1.4                  low         needed      7.5
+dev/ubun2:test    ae32fd545d24b853    CVE-2016-9840       zlib          1:1.2.8.dfsg-1ubuntu1.1              low         needed      8.8
+dev/ubun2:test    ae32fd545d24b853    CVE-2018-7170       ntp           1:4.2.6.p5+dfsg-3ubuntu2.14.04.13    low         needed      5.3
+dev/ubun2:test    ae32fd545d24b853    CVE-2013-0157       util-linux    2.20.1-5.1ubuntu20.9                 low         needed      2.1
+dev/ubun2:test    ae32fd545d24b853    CVE-2014-9114       util-linux    2.20.1-5.1ubuntu20.9                 low         needed      7.8
+dev/ubun2:test    ae32fd545d24b853    CVE-2016-5011       util-linux    2.20.1-5.1ubuntu20.9                 low         needed      4.3
+dev/ubun2:test    ae32fd545d24b853    CVE-2014-8625       dpkg          1.17.5ubuntu5.8                      low         needed      6.8
+dev/ubun2:test    ae32fd545d24b853    CVE-2015-8239       sudo          1.8.9p5-1ubuntu1.4                   low         needed      7
+dev/ubun2:test    ae32fd545d24b853    CVE-2015-5180       eglibc        2.19-0ubuntu6.15                     low         needed      7.5
+dev/ubun2:test    ae32fd545d24b853    CVE-2016-2781       coreutils     8.21-1ubuntu5.4                      low         deferred    6.5
+dev/ubun2:test    ae32fd545d24b853    CVE-2017-12133      eglibc        2.19-0ubuntu6.15                     low         needed      5.9
+dev/ubun2:test    ae32fd545d24b853    CVE-2018-20482      tar           1.27.1-1ubuntu0.1                    low         needed      4.7
+dev/ubun2:test    ae32fd545d24b853    CVE-2014-9761       eglibc        2.19-0ubuntu6.15                     low         needed      9.8
+
+Compliance
+----------
+Image             ID                  Severity    Description
+-----             --                  --------    -----------
+dev/ubun2:test    ae32fd545d24b853    high        (CIS_Docker_CE_v1.1.0 - 4.1) Image should be created with a non-root user
+[TWISTLOCK] Found 50 vulnerabilities in 1 images
+[8mha:////4K2rDTX0cCOzIzmwYcintrUQ3VXV9fyKD0BLcteoan7VAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQHjyRvdvgAAAA==[0m[Pipeline] }
+[8mha:////4MlVGqyG3BXuKBmXCkiyCpRD20Jogd+Zw3oxxIKC/fjHAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQUGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQHljyOIvgAAAA==[0m[Pipeline] // stage
+[8mha:////4KgnTNOUaxzX44IwDag+BiQ8M/8ieFkxrQYb1Ay8NsvsAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREAUSoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBdnuA+oSoWS9AAAA[0m[Pipeline] }
+[8mha:////4EtHg13kbqvu3gFxcc6bTfSNVBpNLy5XSXSV5FV1YzHXAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoEKIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsP+a6lx70AAAA=[0m[Pipeline] // node
+[8mha:////4O+gbrKYxN1wUkU1NyOqa0Tl2UH85C88trXdffn7fB+VAAAAoh+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBUCIqWisNLzCJMU6su2BfSCpexNf4AxGRqNhqZ5p5vbFMEUeOTjWWWk+p8qoLvZueGji218CDaviiKqbEwarSDiXX9jRjyWIxL8ux0FhZqgInT06w1o15mCIYcsVZ4uQOGrmv73gi01NZTJQvjBGbW18npl/nbwBj1wny/VaQ7T67L+52vQAAAA==[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

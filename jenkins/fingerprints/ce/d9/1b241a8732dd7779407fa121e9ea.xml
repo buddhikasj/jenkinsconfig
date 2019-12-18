@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-11-02 14:09:30.948 UTC</timestamp>
+  <md5sum>ced91b241a8732dd7779407fa121e9ea</md5sum>
+  <fileName>Credential id=git-hub name=buddhikasj/******</fileName>
+  <usages>
+    <entry>
+      <string>temp</string>
+      <ranges>19-31</ranges>
+    </entry>
+    <entry>
+      <string>Java_Mevan_Test/master</string>
+      <ranges>1,3-5,7-8</ranges>
+    </entry>
+    <entry>
+      <string>WebAPP_MAVEN_Java/master</string>
+      <ranges>1-2</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
